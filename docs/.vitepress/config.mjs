@@ -2,6 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    base:'/blog/',
     title: "HaRei",
     description: "这是一个vue项目",
     // lastUpdated: true,
